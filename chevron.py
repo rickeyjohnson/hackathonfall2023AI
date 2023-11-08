@@ -2,7 +2,7 @@ import openai
 import os
 import Employee
 
-openai.api_key = "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"
+openai.api_key = "API_KEY"
 model_engine = "text-davinci-003"
 
 def constructPrompt(technical_skills, job):
